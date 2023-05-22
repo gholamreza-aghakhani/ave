@@ -131,3 +131,34 @@ a {
 .img3{
   
 }
+.container3{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.card{
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1{
+  width: calc(33.33% - 1rem);
+  padding-left: 1rem;
+}
+.card2{
+  width: calc(33.33% - 2rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.card3{
+  width: calc(33.33% - 1rem);
+  padding-right: 1rem;
+}
+.btn2{
+  font-size: 25px;
+  padding: 10px 20px;
+}
+.caed-title{
+  padding-right: 30px;
+}
