@@ -111,25 +111,44 @@ a {
   list-style: none;
   padding: 100px 20px;
 }
-.row1{
+
+
+.parent{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.parent .right {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+.right-image-1 {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  display:flex;
-  
-} 
-.img1{
-  padding-right: 80px;
-  padding-left: 40px;
   
 }
-
-
-.img2{
-  padding-left: 80px;
-  padding-right: 80px;
+.right-image-2{
+  display: flex;
+  
   
 }
-.img3{
-  
+.right-image__image-1{
+  padding-left: 35px;
+}
+.parent .left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.left-holder-image{
+  display: flex;
+
+}
+.left-holder-image-2{
+  padding-right: 35px;
+
 }
 .container3{
   display: flex;
