@@ -101,3 +101,33 @@ a {
   color: white;
   border: none;
 }
+.navbar{
+  display: flex;
+  padding-right: 80px;
+}
+
+.navbar li{
+  
+  list-style: none;
+  padding: 100px 20px;
+}
+.row1{
+  justify-content: center;
+  display:flex;
+  
+} 
+.img1{
+  padding-right: 80px;
+  padding-left: 40px;
+  
+}
+
+
+.img2{
+  padding-left: 80px;
+  padding-right: 80px;
+  
+}
+.img3{
+  
+}
